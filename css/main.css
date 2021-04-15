@@ -103,26 +103,17 @@ section .pt-200 .template-brand {
 }
 
 .main-content {
-  height: 100vh;
-}
-
-.main-content .portfolio {
-  -webkit-column-count: 2;
-          column-count: 2;
+  height: 50vh;
 }
 
 .main-content .portfolio .portfolio-card {
   width: 100px;
   padding: 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: left;
 }
 
 .main-content .portfolio .portfolio-card .portfolio-item-one {
-  width: 100%;
-  height: 120px;
+  width: 300%;
+  height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: left top;
@@ -131,9 +122,9 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card .portfolio-item-one:hover {
-  height: 100%;
-  -webkit-transform: scale(2);
-          transform: scale(2);
+  width: 1000%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-two {
@@ -146,8 +137,8 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-two .portfolio-item-two {
-  width: 150%;
-  height: 120px;
+  width: 500%;
+  height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 180% 20%;
@@ -156,13 +147,13 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-two .portfolio-item-two:hover {
-  height: 100%;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  width: 1000%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-three {
-  width: 70px;
+  width: 100px;
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,8 +162,8 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-three .portfolio-item-three {
-  width: 100%;
-  height: 200px;
+  width: 200%;
+  height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 72% 90%;
@@ -181,13 +172,13 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-three .portfolio-item-three:hover {
-  height: 100%;
-  -webkit-transform: scale(3);
-          transform: scale(3);
+  width: 1000%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-four {
-  width: 300px;
+  width: 200px;
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,7 +187,7 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-four .portfolio-item-four {
-  width: 100%;
+  width: 50%;
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -206,13 +197,13 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-four .portfolio-item-four:hover {
-  height: 100%;
+  width: 1000%;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-five {
-  width: 100px;
+  width: 200px;
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,7 +212,7 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-five .portfolio-item-five {
-  width: 100%;
+  width: 50%;
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -231,13 +222,13 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-five .portfolio-item-five:hover {
-  height: 100%;
+  width: 1000%;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-six {
-  width: 90px;
+  width: 200px;
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,8 +237,8 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-six .portfolio-item-six {
-  width: 100%;
-  height: 200px;
+  width: 50%;
+  height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 10% 100%;
@@ -256,13 +247,13 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-six .portfolio-item-six:hover {
-  height: 100%;
-  -webkit-transform: scale(3);
-          transform: scale(3);
+  width: 1000%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-seven {
-  width: 150px;
+  width: 200px;
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,7 +262,7 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-seven .portfolio-item-seven {
-  width: 100%;
+  width: 50%;
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -281,13 +272,13 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-seven .portfolio-item-seven:hover {
-  height: 100%;
+  width: 1000%;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-eight {
-  width: 100px;
+  width: 200px;
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -296,8 +287,8 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-eight .portfolio-item-eight {
-  width: 300%;
-  height: 100px;
+  width: 50%;
+  height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 95% 100%;
@@ -306,9 +297,31 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-eight .portfolio-item-eight:hover {
-  height: 100%;
+  width: 1000%;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+.portfolio-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+}
+
+.portfolio-one > * {
+  width: 100%;
+}
+
+.portfolio-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+}
+
+.portfolio-two > * {
+  width: 100%;
 }
 
 .footer {
