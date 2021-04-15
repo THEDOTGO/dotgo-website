@@ -88,7 +88,7 @@ section {
 }
 
 section .pt-200 {
-  height: 50vh;
+  height: 100vh;
 }
 
 section .pt-200 .template-brand {
@@ -103,7 +103,7 @@ section .pt-200 .template-brand {
 }
 
 .main-content {
-  height: 120vh;
+  height: 100vh;
 }
 
 .main-content .portfolio {
