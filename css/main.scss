@@ -116,9 +116,10 @@ section .pt-200 {
 
 
 .main-content {
-  height: 80vh;
+  height: 150vh;
 
   .portfolio {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
 
     .portfolio-card{
@@ -131,11 +132,11 @@ section .pt-200 {
 
       .portfolio-item-one {
         width: 100%;
-        height: 100px;
+        height: 160px;
         object-fit: cover;
         float: right;
         display: flex;
-        object-position: top left;
+        object-position:left top ;
         z-index: 1;
 
 
@@ -157,12 +158,12 @@ section .pt-200 {
 
 
       .portfolio-item-two {
-        width: 100%;
-        height: 100px;
+        width: 180%;
+        height: 160px;
         object-fit: cover;
         float: right;
         display: flex;
-        object-position: top center;
+        object-position:180% 20% ;
       
        
 
@@ -190,7 +191,7 @@ section .pt-200 {
         object-fit: cover;
         float: right;
         display: flex;
-        object-position: top middle;
+        object-position: 72% 90% ;
         z-index: 1;
         
 
@@ -204,7 +205,7 @@ section .pt-200 {
       }
     }
     .portfolio-card-four {
-      width: 50px;
+    width: 300px;
       padding: 1em;
       display: flex;
       float: left;
@@ -213,11 +214,11 @@ section .pt-200 {
 
       .portfolio-item-four {
         width: 100%;
-        height: 200px;
+        height: 100px;
         object-fit: cover;
         float: right;
         display: flex;
-        object-position: top center;
+        object-position: 50% 40% ;
         
 
 
@@ -230,7 +231,7 @@ section .pt-200 {
       }
     }
     .portfolio-card-five {
-      width: 50px;
+      width: 100px;
       padding: 1em;
       display: flex;
       float: left;
@@ -239,11 +240,11 @@ section .pt-200 {
 
       .portfolio-item-five {
         width: 100%;
-        height: 200px;
+        height: 150px;
         object-fit: cover;
         float: right;
         display: flex;
-        object-position: top center;
+        object-position: 95% 100% ;
 
 
         &:hover {
@@ -255,7 +256,7 @@ section .pt-200 {
       }
     }
     .portfolio-card-six {
-      width: 50px;
+      width: 90px;
       padding: 1em;
       display: flex;
       float: left;
@@ -268,7 +269,7 @@ section .pt-200 {
         object-fit: cover;
         float: right;
         display: flex;
-        object-position: top center;
+        object-position: 10% 100%;
         z-index: 2;
 
 
@@ -281,7 +282,7 @@ section .pt-200 {
       }
     }
     .portfolio-card-seven {
-      width: 50px;
+      width: 150px;
       padding: 1em;
       display: flex;
       float: left;
@@ -290,11 +291,11 @@ section .pt-200 {
 
       .portfolio-item-seven {
         width: 100%;
-        height: 200px;
+        height: 150px;
         object-fit: cover;
         float: right;
         display: flex;
-        object-position: top center;
+        object-position: 100% 10%;
         z-index: 1;
 
 
@@ -307,7 +308,7 @@ section .pt-200 {
       }
     }
     .portfolio-card-eight {
-      width: 50px;
+      width: 100px;
       padding: 1em;
       display: flex;
       float: left;
@@ -315,12 +316,12 @@ section .pt-200 {
 
 
       .portfolio-item-eight {
-        width: 100%;
-        height: 200px;
+        width: 300%;
+        height: 100px;
         object-fit: cover;
         float: right;
         display: flex;
-        object-position: top center;
+        object-position: 95% 100%;
 
 
         &:hover {
@@ -534,7 +535,7 @@ nav {
   li {
 
     a {
-      color: var(--third-color);
+      color: var(--sondary-color);
       display: block;
       padding: 0.5em;
       font-size: 1.2em;
