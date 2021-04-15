@@ -104,6 +104,7 @@ section .pt-200 .template-brand {
 
 .main-content {
   height: 60vh;
+  width: 80vw;
 }
 
 .main-content .portfolio {
