@@ -116,14 +116,16 @@ section .pt-200 {
 
 
 .main-content {
-  height: 60vh;
-  width: 60vw;
+  height: 100vh;
+  width: 80vw;
   
 
   .portfolio {
 
-   column-count: 3;
-   padding-right: 3em;
+   column-count: 2;
+ 
+
+  
 
 
     .portfolio-card{

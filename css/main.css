@@ -103,14 +103,13 @@ section .pt-200 .template-brand {
 }
 
 .main-content {
-  height: 60vh;
-  width: 60vw;
+  height: 100vh;
+  width: 80vw;
 }
 
 .main-content .portfolio {
-  -webkit-column-count: 3;
-          column-count: 3;
-  padding-right: 3em;
+  -webkit-column-count: 2;
+          column-count: 2;
 }
 
 .main-content .portfolio .portfolio-card {
