@@ -107,7 +107,6 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio {
-  position: relative;
   -webkit-column-count: 3;
           column-count: 3;
 }
