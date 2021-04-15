@@ -110,6 +110,7 @@ section .pt-200 .template-brand {
 .main-content .portfolio {
   -webkit-column-count: 3;
           column-count: 3;
+  padding-right: 3em;
 }
 
 .main-content .portfolio .portfolio-card {
