@@ -103,7 +103,13 @@ section .pt-200 .template-brand {
 }
 
 .main-content {
-  height: 150vh;
+  height: 60vh;
+}
+
+.main-content .portfolio {
+  position: relative;
+  -webkit-column-count: 4;
+          column-count: 4;
 }
 
 .main-content .portfolio .portfolio-card {
@@ -126,7 +132,9 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card .portfolio-item-one:hover {
-  width: 300%;
+  height: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .main-content .portfolio .portfolio-card-two {
@@ -139,8 +147,8 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-two .portfolio-item-two {
-  width: 180%;
-  height: 160px;
+  width: 150%;
+  height: 120px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 180% 20%;
@@ -149,7 +157,9 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-two .portfolio-item-two:hover {
-  width: 300%;
+  height: 100%;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .main-content .portfolio .portfolio-card-three {
@@ -172,7 +182,9 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-three .portfolio-item-three:hover {
-  width: 400%;
+  height: 100%;
+  -webkit-transform: scale(3);
+          transform: scale(3);
 }
 
 .main-content .portfolio .portfolio-card-four {
@@ -196,6 +208,8 @@ section .pt-200 .template-brand {
 
 .main-content .portfolio .portfolio-card-four .portfolio-item-four:hover {
   height: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-five {
@@ -218,7 +232,9 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-five .portfolio-item-five:hover {
-  width: 300%;
+  height: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-six {
@@ -241,7 +257,9 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-six .portfolio-item-six:hover {
-  width: 300%;
+  height: 100%;
+  -webkit-transform: scale(3);
+          transform: scale(3);
 }
 
 .main-content .portfolio .portfolio-card-seven {
@@ -264,7 +282,9 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-seven .portfolio-item-seven:hover {
-  width: 300%;
+  height: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main-content .portfolio .portfolio-card-eight {
@@ -287,7 +307,9 @@ section .pt-200 .template-brand {
 }
 
 .main-content .portfolio .portfolio-card-eight .portfolio-item-eight:hover {
-  height: 80%;
+  height: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .footer {

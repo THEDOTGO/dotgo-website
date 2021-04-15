@@ -116,9 +116,11 @@ section .pt-200 {
 
 
 .main-content {
-  height: 150vh;
+  height: 60vh;
 
   .portfolio {
+   position: relative;
+   column-count: 4;
    
 
 
@@ -140,8 +142,8 @@ section .pt-200 {
 
 
         &:hover {
-          width: 300%;
-          
+         height: 100%;
+      transform: scale(2);
         }
 
 
@@ -157,8 +159,8 @@ section .pt-200 {
 
 
       .portfolio-item-two {
-        width: 180%;
-        height: 160px;
+        width: 150%;
+        height: 120px;
         object-fit: cover;
        
         object-position:180% 20% ;
@@ -167,7 +169,8 @@ section .pt-200 {
 
 
         &:hover {
-          width: 300%;
+          height: 100%;
+          transform: scale(1.5);
           
         }
 
@@ -194,8 +197,9 @@ section .pt-200 {
 
 
         &:hover {
-          width: 400%;
-          
+         height: 100%;
+       
+          transform: scale(3);
         }
 
 
@@ -220,7 +224,7 @@ section .pt-200 {
 
         &:hover {
          height: 100%;
-          
+         transform: scale(1);
         }
 
 
@@ -245,7 +249,8 @@ section .pt-200 {
 
         &:hover {
           
-         width: 300%;
+          height: 100%;
+          transform: scale(1);
         }
 
 
@@ -269,7 +274,8 @@ section .pt-200 {
 
 
         &:hover {
-          width: 300%;
+          height: 100%;
+          transform: scale(3);
        
         }
 
@@ -294,7 +300,8 @@ section .pt-200 {
 
 
         &:hover {
-          width: 300%;
+          height: 100%;
+          transform: scale(1);
          
         }
 
@@ -319,7 +326,8 @@ section .pt-200 {
 
 
         &:hover {
-          height: 80%;
+          height: 100%;
+          transform: scale(1);
           
         }
 
