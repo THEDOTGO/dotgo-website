@@ -106,11 +106,6 @@ section .pt-200 .template-brand {
   height: 150vh;
 }
 
-.main-content .portfolio {
-  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-}
-
 .main-content .portfolio .portfolio-card {
   width: 100px;
   padding: 1em;
@@ -122,21 +117,16 @@ section .pt-200 .template-brand {
 
 .main-content .portfolio .portfolio-card .portfolio-item-one {
   width: 100%;
-  height: 160px;
+  height: 120px;
   -o-object-fit: cover;
      object-fit: cover;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -o-object-position: left top;
      object-position: left top;
-  z-index: 1;
+  z-index: 8;
 }
 
 .main-content .portfolio .portfolio-card .portfolio-item-one:hover {
-  width: 500px;
-  height: 200px;
+  width: 300%;
 }
 
 .main-content .portfolio .portfolio-card-two {
@@ -153,17 +143,13 @@ section .pt-200 .template-brand {
   height: 160px;
   -o-object-fit: cover;
      object-fit: cover;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -o-object-position: 180% 20%;
      object-position: 180% 20%;
+  z-index: 7;
 }
 
 .main-content .portfolio .portfolio-card-two .portfolio-item-two:hover {
-  width: 500px;
-  height: 200px;
+  width: 300%;
 }
 
 .main-content .portfolio .portfolio-card-three {
@@ -180,18 +166,13 @@ section .pt-200 .template-brand {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -o-object-position: 72% 90%;
      object-position: 72% 90%;
-  z-index: 1;
+  z-index: 6;
 }
 
 .main-content .portfolio .portfolio-card-three .portfolio-item-three:hover {
-  width: 500px;
-  height: 200px;
+  width: 400%;
 }
 
 .main-content .portfolio .portfolio-card-four {
@@ -208,17 +189,13 @@ section .pt-200 .template-brand {
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -o-object-position: 50% 40%;
      object-position: 50% 40%;
+  z-index: 5;
 }
 
 .main-content .portfolio .portfolio-card-four .portfolio-item-four:hover {
-  width: 500px;
-  height: 200px;
+  height: 100%;
 }
 
 .main-content .portfolio .portfolio-card-five {
@@ -235,17 +212,13 @@ section .pt-200 .template-brand {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -o-object-position: 95% 100%;
      object-position: 95% 100%;
+  z-index: 4;
 }
 
 .main-content .portfolio .portfolio-card-five .portfolio-item-five:hover {
-  width: 500px;
-  height: 200px;
+  width: 300%;
 }
 
 .main-content .portfolio .portfolio-card-six {
@@ -262,18 +235,13 @@ section .pt-200 .template-brand {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -o-object-position: 10% 100%;
      object-position: 10% 100%;
-  z-index: 2;
+  z-index: 3;
 }
 
 .main-content .portfolio .portfolio-card-six .portfolio-item-six:hover {
-  width: 500px;
-  height: 200px;
+  width: 300%;
 }
 
 .main-content .portfolio .portfolio-card-seven {
@@ -290,18 +258,13 @@ section .pt-200 .template-brand {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -o-object-position: 100% 10%;
      object-position: 100% 10%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .main-content .portfolio .portfolio-card-seven .portfolio-item-seven:hover {
-  width: 500px;
-  height: 200px;
+  width: 300%;
 }
 
 .main-content .portfolio .portfolio-card-eight {
@@ -318,17 +281,13 @@ section .pt-200 .template-brand {
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -o-object-position: 95% 100%;
      object-position: 95% 100%;
+  z-index: 1;
 }
 
 .main-content .portfolio .portfolio-card-eight .portfolio-item-eight:hover {
-  width: 500px;
-  height: 200px;
+  height: 80%;
 }
 
 .footer {
