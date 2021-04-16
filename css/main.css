@@ -193,7 +193,8 @@ section .pt-200 .template-brand {
 .fab {
   max-width: 2em;
   max-height: 2em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
+  padding-top: 0.5em;
 }
 
 .footer-head-tel {
