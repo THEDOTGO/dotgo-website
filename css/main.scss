@@ -69,6 +69,9 @@ ul {
 section {
   padding: 5em 2em;
 }
+.secondary-nav{
+  display: none;
+}
 
 .hero {
   text-align: left;
@@ -311,6 +314,21 @@ section .pt-200 {
     text-decoration: none;
     color: var(--sondary-color);
 
+    &:hover {
+
+      cursor: pointer;
+      background-color: var(--primary-color);
+      box-shadow: 0px 0px 0px 1px var(--primary-color);
+      font-weight: 400;
+      animation: anim-shadow .3s forwards;
+    }
+
+    @keyframes anim-shadow {
+      100% {
+        box-shadow: 0px 0px 150px 3px var(--primary-color);
+      }
+    }
+
 
   }
 
@@ -364,6 +382,7 @@ nav {
 
   }
 
+
   li {
 
     a {
@@ -375,6 +394,12 @@ nav {
 
       &:hover {
         font-weight: bold;
+
+        
+
+          text-decoration:  underline 3.5px var(--primary-color);
+          text-underline-position: under;
+        
 
       }
 
