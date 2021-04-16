@@ -167,6 +167,9 @@ section .pt-200 .template-brand {
   font-family: 'lato';
   font-weight: 400;
   padding-bottom: 1em;
+  -webkit-text-decoration: underline 3.5px var(--primary-color);
+          text-decoration: underline 3.5px var(--primary-color);
+  text-underline-position: under;
 }
 
 .footer .footer-para-first {
