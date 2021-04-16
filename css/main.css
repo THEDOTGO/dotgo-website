@@ -121,6 +121,13 @@ section {
   }
 }
 
+.hero .hero-cta:active {
+  -webkit-box-shadow: 0 5px;
+          box-shadow: 0 5px;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
 section .pt-200 {
   height: 100vh;
 }
@@ -271,6 +278,13 @@ section .pt-200 .template-brand {
   }
 }
 
+.formlist .send-message-cta:active {
+  -webkit-box-shadow: 0 5px;
+          box-shadow: 0 5px;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
 .formlist .privacy-policy {
   font-family: 'lato';
   font-weight: 300;
@@ -400,6 +414,12 @@ nav li a:hover {
       -webkit-box-shadow: 0px 0px 150px 3px var(--sondary-color);
               box-shadow: 0px 0px 150px 3px var(--sondary-color);
     }
+  }
+  .navbar nav li.primary-button a:active {
+    -webkit-box-shadow: 0 5px;
+            box-shadow: 0 5px;
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
   }
   .logo {
     padding-left: 3em;

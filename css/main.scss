@@ -121,6 +121,10 @@ section {
         box-shadow: 0px 0px 1px 2px var(--primary-color);
       }
     }
+    &:active{
+      box-shadow: 0 5px;
+      transform: translateY(4px);
+    }
 
   }
 
@@ -328,6 +332,10 @@ section .pt-200 {
         box-shadow: 0px 0px 150px 3px var(--primary-color);
       }
     }
+    &:active{
+      box-shadow: 0 5px;
+      transform: translateY(4px);
+    }
 
 
   }
@@ -488,6 +496,10 @@ nav {
         100% {
           box-shadow: 0px 0px 150px 3px var(--sondary-color);
         }
+      }
+      &:active{
+        box-shadow: 0 5px;
+        transform: translateY(4px);
       }
 
     }
