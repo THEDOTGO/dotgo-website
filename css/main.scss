@@ -6,6 +6,9 @@
   --sondary-color: #212529;
   --third-color: #F9F9FA;
   --general-color: #fff;
+  --fouth-color: #E9ECEF;
+  --fifth-color: #CED4DA;
+  --sixth-color: #ADB5BD;
 }
 
 
@@ -29,6 +32,7 @@ body {
   .logo {
     text-decoration: none;
     max-width: 5em;
+
   }
 
   .mobile-menu {
@@ -68,6 +72,8 @@ section {
   .hero-brand {
     font-family: 'lato';
     font-weight: 400;
+    text-decoration: underline 3.5px var(--primary-color);
+    text-underline-position: under;
 
   }
 
@@ -87,11 +93,30 @@ section {
     margin-top: 3em;
     background: var(--sondary-color);
     padding: .6em 1.8em;
-    border-radius: 5em;
-    font-size: 1.3em;
+    border-radius: .2em;
+    font-size: 1em;
+    font-weight: 300;
     float: left;
 
+
+    &:hover {
+
+
+      background-color: var(--sondary-color);
+      box-shadow: 0px 0px 0px 1px var(--primary-color);
+      font-weight: 400;
+      animation: anim-shadow .3s forwards;
+    }
+
+    @keyframes anim-shadow {
+      100% {
+        box-shadow: 0px 0px 1px 2px var(--primary-color);
+      }
+    }
+
   }
+
+
 
 }
 
@@ -100,11 +125,16 @@ section {
 section .pt-200 {
   height: 100vh;
 
+
+
   .template-brand {
     text-transform: uppercase;
     font-family: 'lato';
     font-weight: 300;
     font-size: 0.8em;
+  
+
+
   }
 
 }
@@ -113,14 +143,23 @@ section .pt-200 {
   font-weight: 800;
 }
 
+.heading-primary-para {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.heading-secondary-para {
+  font-size: 0.8em;
+}
+
 
 
 .main-content {
   height: 100vh;
 
-  
 
- 
+
+
 }
 
 
@@ -134,7 +173,8 @@ section .pt-200 {
   background-color: var(--sondary-color);
   padding: 2em;
   padding-top: 5em;
-  color: var(--third-color);
+  color: var(--sixth-color);
+
 
 
   .footer-head-aboutus {
@@ -337,3 +377,316 @@ nav {
 
 }
 
+
+
+
+@media only screen and (min-width:768px) {
+
+  .mobile-menu,
+  .mobile-close {
+    display: none;
+  }
+
+  .navbar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    margin: -1em;
+
+
+
+  }
+
+  .navbar nav {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+
+    ul {
+      display: flex;
+
+    }
+
+    a {
+      font-size: 1em;
+      padding: .1em 1em;
+    }
+
+    ul.primary-nav {
+      margin: 0;
+      font-size: 0.7em;
+      font-weight: 300;
+      padding-top: 1.6em;
+      padding-right: 7em;
+
+    }
+
+    li.primary-button a {
+      color: var(--sondary-color);
+      border: 0.8px solid var(--primary-color);
+      border-radius: 0.2em;
+      margin: 0;
+      font-size: 0.7em;
+      font-weight: 400;
+      margin-top: 1em;
+      margin-right: 5em;
+      padding: 0.5em 3em;
+      padding-bottom: 0.8em;
+
+      &:hover {
+
+
+        background-color: var(--primary-color);
+        box-shadow: 0px 0px 0px 1px var(--sondary-color);
+        font-weight: 300;
+        animation: anim-shadow .3s forwards;
+      }
+
+      @keyframes anim-shadow {
+        100% {
+          box-shadow: 0px 0px 150px 3px var(--sondary-color);
+        }
+      }
+
+    }
+
+
+  }
+
+  .logo {
+    padding-left: 3em;
+
+  }
+
+  .container-one {
+    padding-left: 5em;
+    padding-top: 4em;
+
+  }
+
+  .container-two {
+    height: 80vh;
+    text-align: center;
+    padding: 0em 7em;
+
+    .template-brand {
+
+
+      padding-right: 34em;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 0.7em;
+      text-decoration:  underline 3.5px var(--primary-color);
+      text-underline-position: under;
+
+    }
+
+    .heading-primary-main {
+      font-size: 1.5em;
+
+    }
+  }
+
+  .hero-brand {
+    font-size: 0.8em;
+  }
+
+
+  .container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 1em;
+  }
+
+
+  .container>* {
+    width: 100%;
+  }
+
+  .fab {
+    float: left;
+  }
+
+
+
+  .footer-aboutus {
+    padding: 2em;
+
+    .footer-head-aboutus {
+      font-size: 0.9em;
+      font-weight: 400;
+      text-decoration: underline 3.5px var(--primary-color);
+      text-underline-position: under;
+
+    }
+
+    .footer-para-first {
+      font-size: 0.7em;
+      font-weight: 200;
+      line-height: 1.5em;
+    }
+
+    .footer-para-last {
+      font-size: 0.8em;
+      font-weight: 400;
+    }
+  }
+
+
+  .contactus {
+    padding: 2em;
+
+    .footer-head-contactus {
+      font-size: 0.9em;
+      font-weight: 400;
+      margin-bottom: 1em;
+    }
+
+    .footer-head-li {
+      font-size: 0.7em;
+      font-weight: 200;
+      line-height: 1.5em;
+    }
+
+
+    .footer-head-tel,
+    .footer-head-tel2 {
+      font-size: 0.9em;
+      font-weight: 400;
+      margin-bottom: .3em;
+    }
+
+    .social-item {
+      font-size: 0.7em;
+      font-weight: 400;
+      margin-bottom: 0.7em;
+    }
+
+    .fab {
+
+      margin: .2em;
+      font-size: 0.9em;
+
+      &:hover {
+
+
+        transform: translate(0,-3px);
+        transition: .3s ease-in-out;
+      }
+
+      
+    }
+
+  }
+
+
+
+
+  .formlist {
+    padding-right: 2em;
+
+    .formlist-head {
+      font-size: 0.9em;
+      font-weight: 400;
+      margin-bottom: .3em;
+    }
+
+    .formlist-name {
+      font-size: 0.7em;
+      font-weight: 300;
+
+
+    }
+
+    .formlist-email {
+      font-size: 0.7em;
+      font-weight: 300;
+    }
+
+    .send-message {
+      font-size: 0.8em;
+      font-weight: 300;
+      height: 6em;
+    }
+
+    .privacy-policy {
+      font-size: 0.5em;
+      font-weight: 200;
+    }
+
+    .send-message-cta {
+      font-size: 0.8em;
+      font-weight: 300;
+      margin-top: 0.6em;
+      margin-right: -0.9em;
+      padding: 0.7em 3em;
+    }
+  }
+
+
+}
+
+
+@media only screen and (min-width:968px) {
+  .send-message-cta {
+
+    margin-right: -0.3em !important;
+
+  }
+}
+
+@media only screen and (min-width:1200px) {
+
+
+  .logo {
+    padding-left: 7em;
+
+  }
+
+  .navbar {
+    font-size: 1.2em;
+  }
+
+
+  .container-one {
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 4em;
+    font-size: 1.2em;
+
+  }
+
+  .container-two {
+
+    font-size: 1.2em;
+
+  }
+
+  .footer {
+    font-size: 1.2em;
+  }
+
+
+
+
+
+
+
+  .send-message-cta {
+
+    margin-right: -0.1em !important;
+
+  }
+
+
+
+
+
+
+
+}
