@@ -173,7 +173,7 @@ section .pt-200 .template-brand {
   -webkit-text-decoration: underline 3.5px var(--primary-color);
           text-decoration: underline 3.5px var(--primary-color);
   text-underline-position: under;
-  -webkit-text-decoration-line: underline;
+  -webkit-text-decoration-line: underline 3.5px var(--primary-color);
 }
 
 .footer .footer-para-first {

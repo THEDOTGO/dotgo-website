@@ -197,7 +197,7 @@ section .pt-200 {
     padding-bottom: 1em;
     text-decoration:  underline 3.5px var(--primary-color);
     text-underline-position: under;
-    -webkit-text-decoration-line: underline;
+    -webkit-text-decoration-line: underline 3.5px var(--primary-color);
     
 
   }
