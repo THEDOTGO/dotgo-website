@@ -162,6 +162,7 @@ section .pt-200 .template-brand {
   font-family: 'lato';
   font-weight: 300;
   font-size: 0.8em;
+  line-height: 1.5em;
 }
 
 .footer .footer-para-last {
@@ -181,6 +182,7 @@ section .pt-200 .template-brand {
   font-family: 'lato';
   font-weight: 300;
   font-size: 0.8em;
+  line-height: 1.5em;
 }
 
 .social-item {
