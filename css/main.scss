@@ -140,12 +140,13 @@ section .pt-200 {
 
 
   .template-brand {
-    text-transform: uppercase;
+
     font-family: 'lato';
     font-weight: 300;
     font-size: 0.8em;
-
-
+    text-decoration:  underline 3.5px var(--primary-color);
+    text-underline-position: under;
+    text-transform: uppercase;
 
   }
 
