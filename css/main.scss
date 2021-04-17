@@ -28,7 +28,7 @@ body {
   font-family: 'lato';
   background: var(--general-color);
   padding: 1em;
- 
+
 
   .logo {
     text-decoration: none;
@@ -43,7 +43,7 @@ body {
 
   nav {
     display: none;
-   
+
   }
 
   .container {
@@ -54,7 +54,7 @@ body {
   .mobile-menu {
     cursor: pointer;
 
-    
+
   }
 
 }
@@ -69,7 +69,8 @@ ul {
 section {
   padding: 5em 2em;
 }
-.secondary-nav{
+
+.secondary-nav {
   display: none;
 }
 
@@ -122,7 +123,8 @@ section {
         box-shadow: 0px 0px 1px 2px var(--primary-color);
       }
     }
-    &:active{
+
+    &:active {
       box-shadow: 0 5px;
       transform: translateY(4px);
     }
@@ -144,8 +146,8 @@ section .pt-200 {
 
     font-family: 'lato';
     font-weight: 300;
-    font-size: 0.8em ;
-    text-decoration:  underline 3.5px var(--primary-color);
+    font-size: 0.8em;
+    text-decoration: underline 3.5px var(--primary-color);
     text-underline-position: under;
     text-transform: uppercase;
 
@@ -196,10 +198,10 @@ section .pt-200 {
     font-family: 'lato';
     font-weight: 400;
     padding-bottom: 1em;
-  
 
-    
-    
+
+
+
 
   }
 
@@ -228,7 +230,7 @@ section .pt-200 {
     font-family: 'lato';
     font-weight: 400;
     padding-bottom: 0.5em;
-   
+
 
 
   }
@@ -247,8 +249,8 @@ section .pt-200 {
   font-weight: 300;
   font-size: 0.8em;
   margin-top: 2em;
- 
-  
+
+
 }
 
 .fab {
@@ -256,7 +258,7 @@ section .pt-200 {
   max-height: 2em;
   padding-bottom: 2em;
   padding-top: 0.5em;
- 
+
 
 
 }
@@ -339,7 +341,8 @@ section .pt-200 {
         box-shadow: 0px 0px 150px 3px var(--primary-color);
       }
     }
-    &:active{
+
+    &:active {
       box-shadow: 0 5px;
       transform: translateY(4px);
     }
@@ -376,7 +379,7 @@ section .pt-200 {
 
 nav.menu-btn {
   display: block;
-  
+
 }
 
 nav {
@@ -388,7 +391,7 @@ nav {
   background: var(--primary-color);
   height: 100vh;
   padding: 1em;
-  
+
 
   ul.primary-nav {
     margin-top: 5em;
@@ -410,11 +413,11 @@ nav {
       &:hover {
         font-weight: bold;
 
-        
 
-          text-decoration:  underline 3.5px var(--primary-color);
-          text-underline-position: under;
-        
+
+        text-decoration: underline 3.5px var(--primary-color);
+        text-underline-position: under;
+
 
       }
 
@@ -426,10 +429,11 @@ nav {
   float: right;
 
   cursor: pointer;
-  
+
 
 
 }
+
 
 
 
@@ -505,7 +509,8 @@ nav {
           box-shadow: 0px 0px 150px 3px var(--sondary-color);
         }
       }
-      &:active{
+
+      &:active {
         box-shadow: 0 5px;
         transform: translateY(4px);
       }
@@ -520,166 +525,166 @@ nav {
 
   }
 
- 
-    .template-brand {
+
+  .template-brand {
 
 
-      padding-right: 34em;
-      text-transform: uppercase;
-      font-weight: 300;
-      font-size: 0.7em;
-      text-decoration:  underline 3.5px var(--primary-color);
-      text-underline-position: under;
+    padding-right: 34em;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.7em;
+    text-decoration: underline 3.5px var(--primary-color);
+    text-underline-position: under;
 
-    }
-
-    .heading-primary-main {
-      font-size: 1.5em;
-
-    }
   }
 
-  .hero-brand {
+  .heading-primary-main {
+    font-size: 1.5em;
+
+  }
+}
+
+.hero-brand {
+  font-size: 0.8em;
+
+}
+
+
+.container {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 1em;
+}
+
+
+.container>* {
+  width: 100%;
+}
+
+.fab {
+  float: left;
+}
+
+
+
+.footer-aboutus {
+  padding: 2em;
+
+  .footer-head-aboutus {
+    font-size: 0.9em;
+    font-weight: 400;
+    text-decoration: underline 3.5px var(--primary-color);
+    text-underline-position: under;
+
+
+  }
+
+  .footer-para-first {
+    font-size: 0.7em;
+    font-weight: 200;
+    line-height: 1.5em;
+  }
+
+  .footer-para-last {
     font-size: 0.8em;
-    
+    font-weight: 400;
+  }
+}
+
+
+.contactus {
+  padding: 2em;
+
+  .footer-head-contactus {
+    font-size: 0.9em;
+    font-weight: 400;
+
+
+
+  }
+
+  .footer-head-li {
+    font-size: 0.7em;
+    font-weight: 200;
+    line-height: 1.5em;
   }
 
 
-  .container {
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    gap: 1em;
+  .footer-head-tel,
+  .footer-head-tel2 {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: .3em;
   }
 
-
-  .container>* {
-    width: 100%;
+  .social-item {
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-bottom: 0.7em;
   }
 
   .fab {
-    float: left;
-  }
+
+    margin: .2em;
+    font-size: 0.9em;
+
+    &:hover {
 
 
-
-  .footer-aboutus {
-    padding: 2em;
-
-    .footer-head-aboutus {
-      font-size: 0.9em;
-      font-weight: 400;
-      text-decoration: underline 3.5px var(--primary-color);
-      text-underline-position: under;
-      
-
+      transform: translate(0, -3px);
+      transition: .3s ease-in-out;
     }
 
-    .footer-para-first {
-      font-size: 0.7em;
-      font-weight: 200;
-      line-height: 1.5em;
-    }
-
-    .footer-para-last {
-      font-size: 0.8em;
-      font-weight: 400;
-    }
-  }
-
-
-  .contactus {
-    padding: 2em;
-
-    .footer-head-contactus {
-      font-size: 0.9em;
-      font-weight: 400;
-
-
-    
-    }
-
-    .footer-head-li {
-      font-size: 0.7em;
-      font-weight: 200;
-      line-height: 1.5em;
-    }
-
-
-    .footer-head-tel,
-    .footer-head-tel2 {
-      font-size: 0.9em;
-      font-weight: 400;
-      margin-bottom: .3em;
-    }
-
-    .social-item {
-      font-size: 0.7em;
-      font-weight: 400;
-      margin-bottom: 0.7em;
-    }
-
-    .fab {
-
-      margin: .2em;
-      font-size: 0.9em;
-
-      &:hover {
-
-
-        transform: translate(0,-3px);
-        transition: .3s ease-in-out;
-      }
-
-      
-    }
 
   }
 
+}
 
 
 
-  .formlist {
-    padding-right: 2em;
 
-    .formlist-head {
-      font-size: 0.9em;
-      font-weight: 400;
-      margin-bottom: .3em;
-    }
+.formlist {
+  padding-right: 2em;
 
-    .formlist-name {
-      font-size: 0.7em;
-      font-weight: 300;
-
-
-    }
-
-    .formlist-email {
-      font-size: 0.7em;
-      font-weight: 300;
-    }
-
-    .send-message {
-      font-size: 0.8em;
-      font-weight: 300;
-      height: 6em;
-    }
-
-    .privacy-policy {
-      font-size: 0.5em;
-      font-weight: 200;
-    }
-
-    .send-message-cta {
-      font-size: 0.8em;
-      font-weight: 300;
-      margin-top: 0.6em;
-      margin-right: -0.9em;
-      padding: 0.7em 3em;
-    }
+  .formlist-head {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: .3em;
   }
+
+  .formlist-name {
+    font-size: 0.7em;
+    font-weight: 300;
+
+
+  }
+
+  .formlist-email {
+    font-size: 0.7em;
+    font-weight: 300;
+  }
+
+  .send-message {
+    font-size: 0.8em;
+    font-weight: 300;
+    height: 6em;
+  }
+
+  .privacy-policy {
+    font-size: 0.5em;
+    font-weight: 200;
+  }
+
+  .send-message-cta {
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-top: 0.6em;
+    margin-right: -0.9em;
+    padding: 0.7em 3em;
+  }
+}
 
 
 }
@@ -735,6 +740,8 @@ nav {
     margin-right: -0.1em !important;
 
   }
+
+
 
 
 
