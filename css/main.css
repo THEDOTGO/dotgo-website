@@ -170,10 +170,6 @@ section .pt-200 .template-brand {
   font-family: 'lato';
   font-weight: 400;
   padding-bottom: 1em;
-  -webkit-text-decoration: underline 3.5px var(--primary-color);
-          text-decoration: underline 3.5px var(--primary-color);
-  text-underline-position: under;
-  -webkit-text-decoration-line: underline 3.5px var(--primary-color);
 }
 
 .footer .footer-para-first {
@@ -497,7 +493,6 @@ nav li a:hover {
   .contactus .footer-head-contactus {
     font-size: 0.9em;
     font-weight: 400;
-    margin-bottom: 1em;
   }
   .contactus .footer-head-li {
     font-size: 0.7em;

@@ -82,6 +82,7 @@ section {
     font-weight: 400;
     text-decoration: underline 3.5px var(--primary-color);
     text-underline-position: under;
+    -webkit-text-decoration-line: underline 3.5px var(--primary-color);
 
   }
 
@@ -143,7 +144,7 @@ section .pt-200 {
 
     font-family: 'lato';
     font-weight: 300;
-    font-size: 0.8em;
+    font-size: 0.8em ;
     text-decoration:  underline 3.5px var(--primary-color);
     text-underline-position: under;
     text-transform: uppercase;
@@ -195,9 +196,9 @@ section .pt-200 {
     font-family: 'lato';
     font-weight: 400;
     padding-bottom: 1em;
-    text-decoration:  underline 3.5px var(--primary-color);
-    text-underline-position: under;
-    -webkit-text-decoration-line: underline 3.5px var(--primary-color);
+  
+
+    
     
 
   }
@@ -227,6 +228,7 @@ section .pt-200 {
     font-family: 'lato';
     font-weight: 400;
     padding-bottom: 0.5em;
+   
 
 
   }
@@ -432,6 +434,7 @@ nav {
 
 
 
+
 @media only screen and (min-width:768px) {
 
   .mobile-menu,
@@ -517,17 +520,7 @@ nav {
 
   }
 
-  .container-one {
-    padding-left: 5em;
-    padding-top: 4em;
-
-  }
-
-  .container-two {
-    height: 80vh;
-    text-align: center;
-    padding: 0em 7em;
-
+ 
     .template-brand {
 
 
@@ -579,6 +572,7 @@ nav {
       font-weight: 400;
       text-decoration: underline 3.5px var(--primary-color);
       text-underline-position: under;
+      
 
     }
 
@@ -601,7 +595,9 @@ nav {
     .footer-head-contactus {
       font-size: 0.9em;
       font-weight: 400;
-      margin-bottom: 1em;
+
+
+    
     }
 
     .footer-head-li {
