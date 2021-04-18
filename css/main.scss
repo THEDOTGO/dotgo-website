@@ -11,7 +11,7 @@
   --sixth-color: #ADB5BD;
 }
 
-  //1800 +v desktop below;
+//1800 +v desktop below;
 
 
 
@@ -77,7 +77,8 @@ section {
 
 .hero {
   text-align: left;
-  .container-one{
+
+  .container-one {
     padding-top: 10em;
     height: 60vh;
   }
@@ -85,9 +86,9 @@ section {
   .hero-brand {
     font-family: 'lato';
     font-weight: 400;
-    //text-decoration: underline 3.5px var(--primary-color);
-    //text-underline-position: under;
-   
+    text-decoration: underline 3.5px var(--primary-color);
+    text-underline-position: under;
+
 
   }
 
@@ -152,10 +153,10 @@ section .pt-200 {
     font-family: 'lato';
     font-weight: 300;
     font-size: 0.8em;
-   
+
     //text-decoration: underline 3.5px var(--primary-color);
     //text-underline-position: under;
-   
+
     text-transform: uppercase;
 
   }
@@ -205,9 +206,9 @@ section .pt-200 {
     font-family: 'lato';
     font-weight: 400;
     padding-bottom: 1em;
-   // text-decoration: underline 3.5px var(--primary-color);
-   // text-underline-position: under;
- 
+    // text-decoration: underline 3.5px var(--primary-color);
+    // text-underline-position: under;
+
 
 
 
@@ -366,7 +367,7 @@ section .pt-200 {
     float: left;
     margin-top: 2em;
     color: var(--sixth-color);
-   
+
 
   }
 
@@ -446,21 +447,22 @@ nav {
 
 
 
-.section.pt-100{
+.section.pt-100 {
   display: flex;
   justify-content: center;
 
-.template-brand{
-  font-weight: 300;
-  //text-decoration: underline 3.5px var(--primary-color);
-   // text-underline-position: under;
- 
-
-}
+  .template-brand {
+    font-weight: 300;
+    font-size: 0.8em;
+    text-decoration: underline 3.5px var(--primary-color);
+    text-underline-position: under;
 
 
-  .heading-primary-main{
-    
+  }
+
+
+  .heading-primary-main {
+
     font-size: 1.4em;
   }
 
@@ -555,7 +557,7 @@ nav {
     margin-top: 60px;
     margin-left: -50px;
     z-index: 1;
- 
+
 
     .img-four {
       max-width: 100%;
@@ -710,15 +712,18 @@ nav {
     position: unset;
     height: auto;
     width: 100%;
-    .primary-nav{
+
+    .primary-nav {
       display: flex;
     }
-    a{
-      
+
+    a {
+
       font-size: 1em;
       padding: .1em 1em;
     }
-    ul.primary-nav{
+
+    ul.primary-nav {
       margin: 0;
       margin-top: 1.5em;
       font-weight: 300;
@@ -727,8 +732,8 @@ nav {
     }
   }
 
-  
-  .primary-button{
+
+  .primary-button {
 
     color: var(--sondary-color);
     border: 0.8px solid var(--primary-color);
@@ -762,11 +767,12 @@ nav {
     }
 
   }
-  .logo{
+
+  .logo {
     margin-left: 4em;
   }
 
-  .hero{
+  .hero {
     padding-top: 1em;
     height: 70vh;
     font-size: 1.1em;
@@ -777,7 +783,7 @@ nav {
 
 
 
-  .section.pt-100{
+  .section.pt-100 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -785,50 +791,51 @@ nav {
     padding-right: 8em;
     font-size: 1.1em;
   }
-  
 
 
-  .container-ipad{
+
+  .container-ipad {
     padding: 0;
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
-  gap: 1em;
-  padding-right: 8em;
-  padding-left: 8em;
-  
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 1em;
+    padding-right: 8em;
+    padding-left: 8em;
+
   }
+
   .container-ipad>* {
     width: 100%;
   }
-  
-  .formlist{
+
+  .formlist {
     padding-right: 8em;
     padding-left: 8em;
   }
 
-  .contactus{
+  .contactus {
     padding-left: 5em;
   }
 
   .footer-aboutus {
-   
-  
+
+
     .footer-head-aboutus {
       font-size: 0.9em;
       font-weight: 400;
       text-decoration: underline 3.5px var(--primary-color);
       text-underline-position: under;
-  
-  
+
+
     }
-  
+
     .footer-para-first {
       font-size: 0.7em;
       font-weight: 200;
       line-height: 1.5em;
     }
-  
+
     .footer-para-last {
       font-size: 0.8em;
       font-weight: 400;
@@ -836,50 +843,149 @@ nav {
   }
 
   .contactus {
-    
+
     .footer-head-contactus {
       font-size: 0.9em;
       font-weight: 400;
-  
-  
-  
+
+
+
     }
-  
+
     .footer-head-li {
       font-size: 0.7em;
       font-weight: 200;
       line-height: 1.5em;
     }
-  
-  
+
+
     .footer-head-tel,
     .footer-head-tel2 {
       font-size: 0.9em;
       font-weight: 400;
       margin-bottom: .3em;
     }
-  
+
     .social-item {
       font-size: 0.7em;
       font-weight: 400;
       margin-bottom: 0.7em;
     }
-  
+
     .fab {
-  
+
       margin: .1em;
       font-size: 0.9em;
-  
+
       &:hover {
         transform: translate(0, -3px);
         transition: .3s ease-in-out;
       }
-  
-  
+
+
     }
-  
+
   }
-  
-  
+
+
 
 }
+
+
+@media only screen and (min-width:968px) {
+
+  .footer {
+
+    .container {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      text-align: left;
+      gap: 3em;
+
+    }
+
+    .container>* {
+      width: 100%;
+    }
+
+    .container-ipad {
+      padding: 0;
+      margin-left: 2em;
+
+    }
+
+    .contactus {
+      padding: 0;
+      margin-left: 2em;
+
+
+
+
+    }
+
+    .formlist {
+      padding: 0;
+      height: 60vh;
+margin-right: 7em;
+
+    }
+
+    .formlist-head {
+      margin: 0;
+      padding: 0;
+      padding-bottom: 2em;
+    }
+
+    .footer-head-contactus {
+      margin: 0;
+      padding: 0;
+      padding-bottom: 1em;
+    }
+
+
+
+  }
+
+}
+
+
+@media only screen and (min-width:968px) {
+
+
+  .container-one {
+    font-size: 1.3em;
+    padding-left: 10em;
+    padding-right: 10em;
+    margin-top:-4em;
+  }
+
+  .container-two {
+    font-size: 1.1em;
+
+
+    text-align: center;
+
+    margin-bottom: 3em;
+margin-top: 9em;
+
+
+  }
+
+  .container-four{
+    margin-bottom: 5em;
+  }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
