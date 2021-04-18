@@ -822,5 +822,20 @@ nav li a:hover {
   .container-four {
     margin-bottom: 5em;
   }
+  .footer {
+    padding-left: 7em;
+  }
+  .copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
+    margin-top: -4em;
+  }
+  .footer-aboutus .footer-para-first {
+    font-size: 0.7em;
+    font-weight: 300;
+    line-height: 1.8em;
+  }
 }
 /*# sourceMappingURL=main.css.map */
