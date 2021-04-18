@@ -154,8 +154,10 @@ section .pt-200 {
     font-family: 'lato';
     font-weight: 300;
     font-size: 0.8em;
-    text-decoration: underline 3.5px var(--primary-color);
-    text-underline-position: under;
+    border-bottom: var(--primary-color);
+    //text-decoration: underline 3.5px var(--primary-color);
+    //text-underline-position: under;
+   
     text-transform: uppercase;
 
   }
@@ -205,9 +207,9 @@ section .pt-200 {
     font-family: 'lato';
     font-weight: 400;
     padding-bottom: 1em;
-    text-decoration: underline 3.5px var(--primary-color);
-    text-underline-position: under;
-
+   // text-decoration: underline 3.5px var(--primary-color);
+   // text-underline-position: under;
+   border-bottom: var(--primary-color);
 
 
 
@@ -452,8 +454,9 @@ nav {
 
 .template-brand{
   font-weight: 300;
-  text-decoration: underline 3.5px var(--primary-color);
-    text-underline-position: under;
+  //text-decoration: underline 3.5px var(--primary-color);
+   // text-underline-position: under;
+   border-bottom: var(--primary-color);
 
 }
 

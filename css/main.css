@@ -140,9 +140,7 @@ section .pt-200 .template-brand {
   font-family: 'lato';
   font-weight: 300;
   font-size: 0.8em;
-  -webkit-text-decoration: underline 3.5px var(--primary-color);
-          text-decoration: underline 3.5px var(--primary-color);
-  text-underline-position: under;
+  border-bottom: var(--primary-color);
   text-transform: uppercase;
 }
 
@@ -174,9 +172,7 @@ section .pt-200 .template-brand {
   font-family: 'lato';
   font-weight: 400;
   padding-bottom: 1em;
-  -webkit-text-decoration: underline 3.5px var(--primary-color);
-          text-decoration: underline 3.5px var(--primary-color);
-  text-underline-position: under;
+  border-bottom: var(--primary-color);
 }
 
 .footer .footer-para-first {
@@ -363,9 +359,7 @@ nav li a:hover {
 
 .section.pt-100 .template-brand {
   font-weight: 300;
-  -webkit-text-decoration: underline 3.5px var(--primary-color);
-          text-decoration: underline 3.5px var(--primary-color);
-  text-underline-position: under;
+  border-bottom: var(--primary-color);
 }
 
 .section.pt-100 .heading-primary-main {
