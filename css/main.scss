@@ -77,6 +77,9 @@ section {
 
 .hero {
   text-align: left;
+  //clip-path: polygon(79% 0, 100% 0, 100% 100%, 33% 100%);
+    //background-color: #FFDB57;
+
 
   .container-one {
     padding-top: 10em;
@@ -952,6 +955,14 @@ margin-right: 7em;
 
 @media only screen and (min-width:968px) {
 
+.navbar{
+  font-size: 1.3em;
+ 
+  .primary-nav{
+   
+    padding-top: 0.3em;
+  }
+}
 
   .container-one {
     font-size: 1.3em;
@@ -959,6 +970,7 @@ margin-right: 7em;
     padding-right: 10em;
     margin-top:-4em;
   }
+ 
 
   .container-two {
     font-size: 1.1em;
