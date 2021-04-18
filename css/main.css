@@ -67,11 +67,11 @@ section {
 
 .hero {
   text-align: left;
-  height: 90vh;
 }
 
 .hero .container-one {
   padding-top: 10em;
+  height: 50vh;
 }
 
 .hero .hero-brand {
@@ -220,7 +220,7 @@ section .pt-200 .template-brand {
 }
 
 .formlist {
-  height: 80vh;
+  height: 55vh;
 }
 
 .formlist .formlist-head {
