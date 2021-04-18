@@ -61,10 +61,6 @@ section {
   padding: 0em 2em;
 }
 
-.secondary-nav {
-  display: none;
-}
-
 .hero {
   text-align: left;
 }
@@ -589,5 +585,177 @@ nav li a:hover {
   max-width: 500%;
   -webkit-transform: scale(2);
           transform: scale(2);
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu,
+  .mobile-close {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+    margin: -1em;
+  }
+  .navbar nav {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+  }
+  .navbar nav .primary-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav a {
+    font-size: 1em;
+    padding: .1em 1em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+    margin-top: 1.5em;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-right: 3em;
+  }
+  .primary-button {
+    color: var(--sondary-color);
+    border: 0.8px solid var(--primary-color);
+    border-radius: 0.2em;
+    margin: 0;
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-right: 5em;
+    padding: 0.5em 3em;
+    padding-bottom: 0.8em;
+  }
+  .primary-button:hover {
+    background-color: var(--primary-color);
+    -webkit-box-shadow: 0px 0px 0px 1px var(--sondary-color);
+            box-shadow: 0px 0px 0px 1px var(--sondary-color);
+    font-weight: 300;
+    -webkit-animation: anim-shadow .3s forwards;
+            animation: anim-shadow .3s forwards;
+  }
+  @-webkit-keyframes anim-shadow {
+    100% {
+      -webkit-box-shadow: 0px 0px 150px 3px var(--sondary-color);
+              box-shadow: 0px 0px 150px 3px var(--sondary-color);
+    }
+  }
+  @keyframes anim-shadow {
+    100% {
+      -webkit-box-shadow: 0px 0px 150px 3px var(--sondary-color);
+              box-shadow: 0px 0px 150px 3px var(--sondary-color);
+    }
+  }
+  .primary-button:active {
+    -webkit-box-shadow: 0 5px;
+            box-shadow: 0 5px;
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+  .logo {
+    margin-left: 4em;
+  }
+  .hero {
+    padding-top: 1em;
+    height: 70vh;
+    font-size: 1.1em;
+  }
+  .section.pt-100 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    font-size: 1.1em;
+  }
+  .container-ipad {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+    gap: 1em;
+    padding-right: 8em;
+    padding-left: 8em;
+  }
+  .container-ipad > * {
+    width: 100%;
+  }
+  .formlist {
+    padding-right: 8em;
+    padding-left: 8em;
+  }
+  .contactus {
+    padding-left: 5em;
+  }
+  .footer-aboutus .footer-head-aboutus {
+    font-size: 0.9em;
+    font-weight: 400;
+    -webkit-text-decoration: underline 3.5px var(--primary-color);
+            text-decoration: underline 3.5px var(--primary-color);
+    text-underline-position: under;
+  }
+  .footer-aboutus .footer-para-first {
+    font-size: 0.7em;
+    font-weight: 200;
+    line-height: 1.5em;
+  }
+  .footer-aboutus .footer-para-last {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+  .contactus .footer-head-contactus {
+    font-size: 0.9em;
+    font-weight: 400;
+  }
+  .contactus .footer-head-li {
+    font-size: 0.7em;
+    font-weight: 200;
+    line-height: 1.5em;
+  }
+  .contactus .footer-head-tel,
+  .contactus .footer-head-tel2 {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: .3em;
+  }
+  .contactus .social-item {
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-bottom: 0.7em;
+  }
+  .contactus .fab {
+    margin: .1em;
+    font-size: 0.9em;
+  }
+  .contactus .fab:hover {
+    -webkit-transform: translate(0, -3px);
+            transform: translate(0, -3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
 }
 /*# sourceMappingURL=main.css.map */
